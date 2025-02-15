@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
+
+html, body {
+    background-color: seashell;
+    
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    min-height: 50px;
+    border-bottom: 1px solid seashell;
+    color: white;
+}
+
+nav h3 {
+    display: flex;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+header {
+    background-image: url("../imagenes/IncendioPortada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+header h1 {
+    max-width: 800px;
+    margin: 60px;
+    
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.projects {
+    margin: 60px;
+    border: 2px solid black;
+}
+
+.projects h2 {
+    margin: 0;
+    background-color: black;
+    color: white;
+    
+    padding: 30px;
+}
+
+.various-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {    
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+    margin: 2px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 10px 30px;
+}
+
+#p1 {
+    background-image: url("../imagenes/IncendioSlide1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#p2 {
+    background-image: url("../imagenes/IncendioSlide2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#p3 {
+    background-image: url("../imagenes/IncendioSlide3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+}
